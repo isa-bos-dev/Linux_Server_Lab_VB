@@ -4,6 +4,23 @@
 
 This guide details the complete process for creating two Linux server virtual machines (VMs) (Ubuntu Server and Rocky Linux) and configuring them to be managed remotely from Windows using PowerShell and SSH.
 
+
+## 📜 Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Part 1: Ubuntu Server (`server-ubuntu`)](#part-1-ubuntu-server-server-ubuntu)
+  - [1.1. Virtual Machine Creation](#11-virtual-machine-creation)
+  - [1.2. Operating System Installation](#12-operating-system-installation)
+  - [1.3. First Boot and Update](#13-first-boot-and-update)
+- [Part 2: Rocky Linux Server (`server-rocky`)](#part-2-rocky-linux-server-server-rocky)
+  - [2.1. Virtual Machine Creation](#21-virtual-machine-creation)
+  - [2.2. Operating System Installation](#22-operating-system-installation)
+- [Part 3: Remote Connection with PowerShell (SSH)](#part-3-remote-connection-with-powershell-ssh)
+  - [3.1. Change the VM Network Configuration](#31-change-the-vm-network-configuration)
+  - [3.2. Connect via SSH](#32-connect-via-ssh)
+
+---
+
 ## Prerequisites
 
 - **Software:**
